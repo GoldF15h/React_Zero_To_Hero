@@ -34,7 +34,7 @@ export default function MeetupItem(props) {
         </div>
         <div className={classes.actions}>
           <button onClick={toggleFavoriteStatusHandler}>
-            {itemIsFavorite ? "Remove From Fav" : "To Fav"}
+            {itemIsFavorite ? "Remove from favourite" : "Add to favourite"}
           </button>
         </div>
       </li>
